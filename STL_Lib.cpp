@@ -67,10 +67,8 @@ int main()
   list <int> l1({0,1,3,4,5,6,7,8,9,10});
   
   auto it = l1.begin(); // apunta al 1
-  
   advance(it, 2); // ahora apunta al 2
-  
-  l1.insert(it, 2);     // inserta el 3 antes del 4
+  l1.insert(it, 2);     // inserta el 2 antes del 3
   
   // deque, solo si buscas eficiencia. Hace lo mismo que el vector, y la lista
   
@@ -119,6 +117,9 @@ int main()
     cout << a.primero << "," << a.segundo << " ";
   }
   cout << endl;
+  
+  //find
+  
   
   
   return 0;
